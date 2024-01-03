@@ -2,7 +2,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  namespace: redis-cluster
+  namespace: default
   labels:
     app: deployment-redis
   name: deployment-redis
